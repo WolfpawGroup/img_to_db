@@ -77,7 +77,7 @@ namespace img_to_db
 			yn = "";
 			while (true)
 			{
-				yn = Console.ReadLine().Trim();
+				yn = Console.ReadLine().Trim(); 
 				if (new string[] { "y", "n" }.Contains(yn.ToLower())) { break; }
 			}
 
